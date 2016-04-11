@@ -100,7 +100,6 @@ if __name__ == '__main__':
     for x in range(4):
 	currentip[x]=currentip[x].strip("\n")
     if record_pub_ip(currentip)==False:
-#      	sendEmail('smtp.126.com','liangpixia@126.com','19631968xw','liangpixia@126.com',['xiahouran@hotmail.com'],'IP Address Of Raspberry Pi',msg)
       	#print("False")
       	sendEmail('smtp.126.com','xxxx@126.com','passwd','xxxxxxx@126.com',['receive1@hotmail.com','receive2@xxx.com'],'IP Address Of Raspberry Pi',msg)
     now = time.strftime("%x %X")
